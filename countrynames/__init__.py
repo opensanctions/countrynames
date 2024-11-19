@@ -1,7 +1,7 @@
 import logging
-from jellyfish import levenshtein_distance
 from functools import lru_cache
 from typing import Any, Optional, Dict
+from rapidfuzz.distance import Levenshtein
 
 from countrynames.mappings import mappings
 from countrynames.util import normalize_name, process_data
@@ -30,7 +30,7 @@ def _fuzzy_search(name: str) -> Optional[str]:
     for cand, code in COUNTRY_NAMES.items():
         if len(cand) <= 4:
             continue
-        distance = levenshtein_distance(name, cand)
+        distance = Levenshtein.distance(name, cand)
         if best_distance is None or distance < best_distance:
             best_distance = distance
             best_code = code
