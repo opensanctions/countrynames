@@ -20,6 +20,7 @@ FAIL:
   - Other
   - undetermined
   - Africa
+  - African
   - central america
   - southern america
   - N/A
@@ -31,6 +32,8 @@ FAIL:
   # - na -> namibia
   - n a
   - unknown
+  - None
+  - N/A
   - unk
   - not applicable
   - overseas
@@ -4370,6 +4373,8 @@ CD:
   - ДР Конго
   - ДР Конго
   - DR Congo
+  - Congolese (Drc)
+  - Congolese (Congo)
   - Congo DR
   - DRC
   - ကွန်ဂို  -ကင်ရှာစ
@@ -13690,6 +13695,7 @@ KN:
   - Sentkitsa un Nevisa
   - Saint Kitts i Nevis
   - Saint Kitts ne Nɛves
+  - Kittitian
   - Saint Christopher i Nevis
   - KNA
   - སེནྚ། ཀིཊྚས྄། དང༌། ནེ་བིས྄།
@@ -16606,6 +16612,7 @@ MO:
   - S.R.R. na Síne Macao
   - Macau AEB Txina
   - Macau SAS Sjina
+  - Macanese
   - මකාවු චීන විශේෂ පරිපාලන කලාපය
   - मकाओ विशेष प्रशासनिक क्षेत्र (चीन)
   - САР Макао (Кина)
@@ -18278,6 +18285,7 @@ NG:
   - Nigèiria
   - Najeriya
   - Federal Republic of Nigeria
+  - REPUBLIC OF NIGERIA
   - NGA
   - Nayijerya
   - Nixeria
@@ -26948,6 +26956,7 @@ YE:
   - Емен
   - Republic of Yemen
   - Yemen, Republic of
+  - YEMEN ARAB REPUBLIC
   - Emetab Yemen
   - Éimin
   - ꔝꘈꘋ
