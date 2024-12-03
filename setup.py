@@ -23,7 +23,7 @@ setup(
     keywords="names countries iso country",
     author="Friedrich Lindenberg",
     author_email="friedrich@opensanctions.org",
-    url="http://github.com/opensanctions/countrynames",
+    url="https://github.com/opensanctions/countrynames",
     license="MIT",
     packages=find_packages(exclude=["ez_setup", "examples", "test"]),
     namespace_packages=[],
