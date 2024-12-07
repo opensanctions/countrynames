@@ -1,0 +1,55 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "countrynames"
+version = "1.16.4"
+description = "A library to map country names to 2-letter ISO codes."
+readme = "README.md"
+license = { file = "LICENSE" }
+authors = [{ name = "OpenSanctions", email = "info@opensanctions.org" }]
+classifiers = [
+    "Intended Audience :: Developers",
+    "Operating System :: OS Independent",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+dependencies = [
+    "normality >= 2.5.0",
+    "pyyaml >= 5.0.0, < 7.0.0",
+    "banal >= 1.0.6, < 1.1.0",
+    "rapidfuzz >= 3.9.0, < 4.0.0",
+]
+
+[project.urls]
+Documentation = "https://github.com/opensanctions/countrynames/"
+Repository = "https://github.com/opensanctions/countrynames.git"
+Issues = "https://github.com/opensanctions/countrynames/issues"
+
+[project.optional-dependencies]
+dev = [
+    "bump2version",
+    "mypy",
+    "ruff",
+    "pytest",
+    "pytest-cov",
+    "types-PyYAML",
+    "types-PyYAML",
+    "coverage>=4.1",
+]
+
+[project.entry-points."babel.extractors"]
+
+[tool.hatch.build.targets.sdist]
+only-include = ["countrynames", "LICENSE", "README.md"]
+
+[tool.distutils.bdist_wheel]
+universal = true
+
+[tool.coverage.run]
+branch = true
+
+[tool.coverage.report]
+omit = ["rigour/langs/generate.py"]
