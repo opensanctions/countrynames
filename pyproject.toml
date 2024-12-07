@@ -50,6 +50,3 @@ universal = true
 
 [tool.coverage.run]
 branch = true
-
-[tool.coverage.report]
-omit = ["rigour/langs/generate.py"]
