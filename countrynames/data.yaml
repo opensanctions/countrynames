@@ -557,6 +557,7 @@ AE:
   - Leta Zunze Ubumwe z’Abarabu
   - Trucial States
   - Emirate of Dubai
+  - არაბთა გაერთიანებული საემიროები
 AF:
   - Авганистан
   - Afganistaŋ
@@ -5042,6 +5043,7 @@ CI:
   - Ivoorkust
   - کۆتدیڤوار
   - Coasta De Fildes
+  - კოტდივუარი
 CK:
   - Cookinslä
   - Νήσοι Κουκ
@@ -6486,6 +6488,8 @@ CZ:
   - جمهوری چک
   - Prague
   - Praguer
+  - ჩეხეთისრესპუბლიკა 
+  - ჩეხეთი
 DE:
   - nsáman
   - जर्मनी
@@ -8836,6 +8840,7 @@ GB:
   - Inglaterra
   - Regno Unito
   - დიდი ბრიტანეთი
+  - დიდი ბრიტანეთის და ჩრდილოეთ ირლანდიის გაერთიანებული სამეფო
   - যুক্তরাজ্য
   - Aupuni Mōʻī Hui Pū ʻIa
   - യുണൈറ്റഡ് കിംഗ്ഡം
@@ -13825,6 +13830,7 @@ KN:
   - Saint Christopher Island
   - basseterre
   - sandy point town
+  - სენტკიტსი და ნევისი
 KP:
   - Korea, Democratic People's Republic of
   - Democratic People's Republic of Korea (DPRK)
@@ -14127,6 +14133,7 @@ KR:
   - ദക്ഷിണകൊറിയ
   - Jižní Korea
   - Republica Coreea
+  - კორეის რესპუბლიკა
 KW:
   - Emetab Kuwait
   - Kuveitas
@@ -14956,6 +14963,7 @@ LK:
   - srilanka
   - Sri Lanka
   - Šri Lanka
+  - შრილანკა
 LR:
   - Libɛrî
   - Libeliya
@@ -18594,6 +18602,7 @@ NL:
   - Nedàlân
   - Niderland
   - Hà Lan
+  - ჰოლანდია
 "NO":
   - Норвегия
   - Orílẹ́ède Nọọwii
@@ -21187,6 +21196,8 @@ RU:
   - Chechen Republic of Ichkeria
   - Chechen
   - Moscow
+  - რუსეთისფედერაცია
+  - რუსეთის ფედერაცია
 RW:
   - Ruwwanḍa
   - Luanitā
@@ -21403,6 +21414,7 @@ SA:
   - Саудівська Аравія
   - Sàudi Àrabìà
   - Саудијска Арабија
+  - საუდის არაბეთის სამეფო
 SB:
   - Соломоновы о  -ва
   - ᏐᎶᎹᏂ ᏚᎦᏚᏛᎢ
@@ -23360,6 +23372,7 @@ SY:
   - 시리아
   - Szíria
   - Republica Arabă Siria
+  - სირიის
 SZ:
   - 史瓦濟蘭
   - Swaziska
@@ -25647,6 +25660,7 @@ US:
   - The United States Of America
   - Confederate States of America
   - S.U.A.
+  - აშშ
 UY:
   - Orogoay
   - उरुग्वे
@@ -26375,6 +26389,7 @@ VG:
   - Anegada
   - Jost Van Dyke
   - Ins. Virgine Britanice
+  - ვირჯინიის კუნძულები (ბრიტ )
 VI:
   - آمریکای ویرجین
   - AOS Virgin  -sullot
@@ -27222,6 +27237,8 @@ ZA:
   - སཱའུཐ་ ཨཕ་རི་ཀ
   - दक्षिण अफ्रिका
   - Johannesburg
+  - სამხრეთ აფრიკა
+  - სამხრეთაფრიკა
 ZM:
   - זאַמביע
   - Zâmbia
