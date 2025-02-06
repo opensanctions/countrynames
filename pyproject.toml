@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "countrynames"
-version = "1.16.6"
+version = "1.16.7"
 description = "A library to map country names to 2-letter ISO codes."
 readme = "README.md"
 license = { file = "LICENSE" }
