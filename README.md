@@ -29,3 +29,12 @@ assert 'DEU' == countrynames.to_code_3('Germany')
 For some dissolved countries (e.g. `SUHH` for Soviet Union) and sub-regions
 (e.g. `GB-SCT` for Scotland) special codes are defined and returned from both
 `to_code` and `to_code_3`.
+
+## How to release
+
+```sh
+make test compile
+git commit countrynames/data.py -m "update data.py"
+bump2version --verbose patch
+git push --tags && git push origin main
+```
