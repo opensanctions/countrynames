@@ -45,6 +45,13 @@ def validate_data(data: Dict[str, List[str]]) -> None:
 
 if __name__ == "__main__":
     logging.basicConfig(level=logging.DEBUG)
+    try:
+        # Explicitly test the import as it could be broken after OS upgrades. In that case
+        # a broken data.py will be generated, because normality has a fallback.
+        from icu import Transliterator  # type: ignore
+    except ImportError as e:
+        log.error("Loading PyICU failed: %r. Normalized names will be broken, refusing to compile.", e)
+        exit(1)
     data = load_yaml_data()
     validate_data(data)
     write_python(data)
