@@ -19,6 +19,7 @@ classifiers = [
 requires-python = ">= 3.10"
 dependencies = [
     "normality >= 2.5.0",
+    "pyicu",
     "pyyaml >= 5.0.0, < 7.0.0",
     "banal >= 1.0.6, < 1.1.0",
     "rapidfuzz >= 3.9.0, < 4.0.0",
