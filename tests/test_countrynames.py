@@ -41,3 +41,7 @@ def test_GB():
     assert to_code(text) == "GB"
     text = "United Kingdom of Great Britain and Northern Ireland"
     assert to_code(text, fuzzy=True) == "GB"
+
+def test_empty_normalization():
+    # ⵎⴰⴷⴰⵖⴰⵛⵇⴰⵔ normalizes to ""
+    assert to_code("ⵎⴰⴷⴰⵖⴰⵛⵇⴰⵔ") == "MG"
