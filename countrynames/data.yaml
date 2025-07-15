@@ -220,8 +220,11 @@ GB-SCT:
   - Scotland
   - GBSCT
   - Scotish
+  - Scottish
   - Kingdom of Scotland
   - Scottland
+  - Scotsman
+  - Scotswoman
   - Шотландія
   - Шотландія
   - alba
@@ -8838,6 +8841,7 @@ GB:
   - England/United Kingdom
   - United Kingdom (England And Wales)
   - British English
+  - Englishman
   - Englishwoman
   - England
   - Ukengland
@@ -8848,16 +8852,17 @@ GB:
   - United Kingdom of Great Britain
   - United Kingdom of Great Britain and Ireland
   - Grande-Bretagne
+  - Albion
   - Kingdom of England
   - London, United Kingdom
   - Cardiff
   - Britsh
   - Great British
   - Great Britain
-  - Scottish
   - United Kingdon
   - English
   - British Citizen
+  - British subject
   - Inglaterra
   - Regno Unito
   - დიდი ბრიტანეთი
@@ -9164,7 +9169,7 @@ GB:
   - Worcs
   - Worsts
   - Yorks
-  - coumpanies house uk
+  - companies house uk
   - companies house wales
   - Regatul Unit al Marii Britanii şi al Irlandei de Nord
 GD:
