@@ -9,7 +9,7 @@ from countrynames.util import normalize_name, process_data
 
 log = logging.getLogger(__name__)
 
-__all__ = ["to_code", "to_code_3", "validate_data"]
+__all__ = ["to_code", "to_code_3"]
 
 COUNTRY_NAMES: Dict[str, str] = {}
 
