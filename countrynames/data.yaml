@@ -4,7 +4,6 @@ FAIL:
   - antilles
   - Lesser Antilles
   - Antillean
-  - asia
   - british overseas territories
   - overseas territories
   # terms meaning overseas/foreign
@@ -15,6 +14,11 @@ FAIL:
   # terms for regions etc referring to multiple countries/peoples etc
   - Afrikaans
   - arabic
+  - asia
+  - Asian
+  - Black
+  - Carribbean
+  - Caucasion
   - channel islands
   - Channels Islands
   - channel island
@@ -25636,6 +25640,7 @@ US:
   - United States Citizen
   - Us Citizen
   - American
+  - "U S A" # non-standard spacing
   - "Thirteen Colonies"
   - DELAWARE, U.S.A.
   - ARIZONA, U.S.A.
