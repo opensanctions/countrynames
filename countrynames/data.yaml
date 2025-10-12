@@ -12,12 +12,15 @@ FAIL:
   - Non-Dom
   - overseas
   - Uk Offshore
-  # terms for regions containing multiple countries
+  # terms for regions etc referring to multiple countries/peoples
+  - Afrikaans
+  - arabic
   - channel islands
   - Channels Islands
   - channel island
   - Channel Island
   - Channel Isles
+  - Channel Islander
   - west indies
   - West Indies
   - West Indian
@@ -25156,6 +25159,7 @@ TW:
   - Republic of China
   - Taiwan, China
   - Taiwan (Republic of China)
+  - Taiwan, Roc
   - Taipei,China
   - Тайван
   - Taayiwan
