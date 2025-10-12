@@ -216,6 +216,9 @@ GB-WLS:
   - Cthen
   - Flints
   - Gales
+  - Bangor
+  - Llandudno
+  - Vale Of Glamorgan
 GB-SCT:
   - Scotland
   - GBSCT
@@ -225,6 +228,8 @@ GB-SCT:
   - Scottland
   - Scotsman
   - Scotswoman
+  - Scots
+  - Brit Scot
   - Шотландія
   - Шотландія
   - alba
@@ -274,6 +279,11 @@ GB-SCT:
   - Linlithgowshire
   - Wigtownshire
   - Escocia
+  - Fraserburgh
+  - Lochgelly
+  - Inverurie
+  - Selkirk
+  - Turriff
 GB-NIR:
   - Northern Ireland
   - N Irish
@@ -8834,6 +8844,7 @@ GB:
   - Cornwall
   - Engalnd
   - eng
+  - Engl
   - emgland
   - en
   - England and Wales
@@ -8844,10 +8855,15 @@ GB:
   - Englishman
   - Englishwoman
   - England
+  - Engl
   - Ukengland
+  - Uk Citizen
+  - U.K. Citizen
+  - Uk Non-Resident
   - United Kindgom
   - United Kindgdom
   - The United Kingdom
+  - The Uk
   - United Kingdom of Great Britain
   - United Kingdom of Great Britain
   - United Kingdom of Great Britain and Ireland
@@ -8863,6 +8879,9 @@ GB:
   - English
   - British Citizen
   - British subject
+  - Uk Subject
+  - Other Uk
+  - English And Welsh Law
   - Inglaterra
   - Regno Unito
   - დიდი ბრიტანეთი
@@ -9055,6 +9074,7 @@ GB:
   - Devon
   - Dorset
   - Durham
+  - East Sussex
   - Essex
   - Gloucestershire
   - Greater London
@@ -9087,6 +9107,7 @@ GB:
   - Tyne and Wear
   - Warwickshire
   - West Midlands
+  - West Sussex
   - Westmorland
   - Wiltshire
   - Worcestershire
@@ -9169,8 +9190,43 @@ GB:
   - Worcs
   - Worsts
   - Yorks
+  - Bath
+  - Beckenham
+  - Birmingham, Uk
+  - Bristol
+  - Bromley
+  - Camberley
+  - Dartford
+  - Daventry
+  - Earley
+  - Eccleshall
+  - Exeter
+  - Fareham
+  - Farnborough
+  - Halesowen
+  - Harpenden
+  - Harrow
+  - Horsham
+  - Iver
+  - Liverpool
+  - Loughborough
+  - Macclesfield
+  - Maidenhead
+  - Manchester
+  - Market Harborough
+  - Milton Keynes
+  - Newport Pagnell
+  - Nottingham
+  - Sheffield
+  - Slough
+  - Spilsby
+  - Tyne & Wear
+  - Wickford Essex
   - companies house uk
   - companies house wales
+  - Uk Companies Registry
+  - Uk Registered Company
+  - Uk Registrar Of Companies
   - Regatul Unit al Marii Britanii şi al Irlandei de Nord
 GD:
   - Gelenadɛ
