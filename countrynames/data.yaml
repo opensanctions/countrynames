@@ -4,31 +4,62 @@ FAIL:
   - antilles
   - Lesser Antilles
   - Antillean
-  - asia
   - british overseas territories
   - overseas territories
+  # terms meaning overseas/foreign
   - abroad
+  - Non-Dom
+  - overseas
+  - Uk Offshore
+  # terms for regions etc referring to multiple countries/peoples etc
+  - Afrikaans
+  - arabic
+  - asia
+  - Asian
+  - Black
+  - Carribbean
+  - Caucasion
   - channel islands
+  - Channels Islands
   - channel island
+  - Channel Island
+  - Channel Isles
+  - Channel Islander
+  - Hindu
   - west indies
+  - West Indies
   - West Indian
   - indies
   - THE WEST INDIES
   - THE CHENNAL ISLES
   - CHANNEL ISLANDS
   - VIRGIN ISLANDS
-  - Other
-  - undetermined
   - Africa
   - African
   - central america
+  - East Africa
   - southern america
+  - West Africa
+  - Mixed Race
+  # Ambiguous place names
+  - Birmingham # city in the UK and in Alabama, USA.
+  - Victoria # state in Australia but also a city in Canada
+  - Worthing # town in England but also town in Texas USA etc
+  # data inputs where it appears inputer has purposefully not entered a country/nationality
   - N/A
   - "00"
   - UNKNOWN
+  - "Null"
   - "NULL"
+  - Not Applicable
+  - Not Known
+  - N.A.
+  - No Residence
+  - undefined
   - undetermined
-  - Other
+  - Tbd
+  - "-"
+  - "." 
   # - na -> namibia
   - n a
   - unknown
@@ -43,6 +74,14 @@ FAIL:
   - "Not Known"
   - "Not Disclosed"
   - stateless
+  - Citizen Of The World
+  - deceased
+  - Nomadic
+  - Other
+  - "<Country></Country>"
+  # common data input issues
+   - "E" # common data entry issue, appears over 40 times in Companies House data on persons with significant control
+   - United # common data entry issue
 ZZ:
   - Global
   - Worldwide
@@ -161,6 +200,7 @@ UA-CRI:
 GB-WLS:
   - Wales
   - Welsh
+  - Cymreig
   - GBWLS
   - Cymro
   - Cymru
@@ -216,6 +256,9 @@ GB-WLS:
   - Cthen
   - Flints
   - Gales
+  - Bangor
+  - Llandudno
+  - Vale Of Glamorgan
 GB-SCT:
   - Scotland
   - GBSCT
@@ -225,6 +268,9 @@ GB-SCT:
   - Scottland
   - Scotsman
   - Scotswoman
+  - Scots
+  - Scot
+  - Brit Scot
   - Шотландія
   - Шотландія
   - alba
@@ -273,7 +319,15 @@ GB-SCT:
   - Lothian
   - Linlithgowshire
   - Wigtownshire
+# Towns and cities in Scotland
   - Escocia
+  - Forfar
+  - Fraserburgh
+  - Lochgelly
+  - Inverness
+  - Inverurie
+  - Selkirk
+  - Turriff
 GB-NIR:
   - Northern Ireland
   - N Irish
@@ -434,6 +488,7 @@ AE:
   - එක්සත් අරාබි එමිර් රාජ්‍යය
   - Emirian
   - UAE
+  - U A E # non-standard spacing
   - RAK
   - RAS AL KHAIMAH
   - संयुक्त अरब अमीरात
@@ -529,6 +584,9 @@ AE:
   - Emirats Arabs Unids
   - Dubai
   - Dubai, UAE
+  - Government Of Dubai
+  - Dubai International Finance Centre
+  - Dubai International Financial Centre, Uae
   - Дубай, ОАЕ
   - ཡུ་ནཱའི་ཊེཌ་ ཨ་རབ་ ཨེ་མེ་རེཊས
   - アラブ首長国連邦
@@ -567,6 +625,7 @@ AE:
   - არაბთა გაერთიანებულისაემიროები
   - არაბთაგაერთიანებული საამიროებ
   - არაბთაგაერთიანებული საემიროები
+  - Sharjah Media City
 AF:
   - Авганистан
   - Afganistaŋ
@@ -1745,6 +1804,7 @@ AU:
   - Awusitureliya
   - Tasmania
   - Taswegian
+  - Nsw
 AW:
   - ᎠᎷᏆ
   - അറൂബ
@@ -4254,6 +4314,7 @@ CA:
   - Ontario
   - Manitoba
   - Saskatchewan
+  - Banff
   - Edmonton, Alberta
   - Victoria, British Columbia
   - British Columbia
@@ -6570,6 +6631,7 @@ DE:
   - Gjermanie
   - i  -Germany
   - Berlin
+  - Aachen
   - Alemaina
   - Almagn
   - Nemačka
@@ -8831,23 +8893,29 @@ GB:
   - Britsh
   - Brittish
   - Btitish
+  - Prydeinig
   - Cornwall
   - Engalnd
   - eng
+  - Engl
+  - Engla
   - emgland
   - en
-  - England and Wales
-  - England & Wales
   - England/United Kingdom
-  - United Kingdom (England And Wales)
   - British English
   - Englishman
   - Englishwoman
   - England
   - Ukengland
+  - Uk Citizen
+  - Uk Resident
+  - U.K. Citizen
+  - Uk Non-Resident
+  - Uk National
   - United Kindgom
   - United Kindgdom
   - The United Kingdom
+  - The Uk
   - United Kingdom of Great Britain
   - United Kingdom of Great Britain
   - United Kingdom of Great Britain and Ireland
@@ -8863,6 +8931,8 @@ GB:
   - English
   - British Citizen
   - British subject
+  - Uk Subject
+  - Other Uk
   - Inglaterra
   - Regno Unito
   - დიდი ბრიტანეთი
@@ -8902,6 +8972,7 @@ GB:
   - Groussbritannien
   - kǝlɔŋ kǝ kǝtáatáaŋzǝn
   - GB
+  - G B # non-standard spacing
   - イギリス
   - Nlambɔ́ Ngɛlɛn
   - ⵜⴰⴳⵍⴷⵉⵜ ⵉⵎⵓⵏⵏ
@@ -9040,6 +9111,18 @@ GB:
   - ꑱꇩ
   - tagldit imunn
   - פֿאַראייניגטע קעניגרייך
+  - Regatul Unit al Marii Britanii şi al Irlandei de Nord
+   # England and Wales (these two countries within the UK form one jurisdiction)
+  - "English/Welsh Company"
+  - England and Wales
+  - English And Welsh Law
+  - England & Wales
+  - Ew
+  - "E & W"
+  - "E/W"
+  - "Gb-Eaw"
+  - United Kingdom (England And Wales)
+  # Counties in England
   - Avon
   - Bedfordshire
   - Berkshire
@@ -9049,13 +9132,16 @@ GB:
   - Cheshire
   - Cleveland
   - Cornwall
+  - Crawley
   - Cumberland
   - Cumbria
   - Derbyshire
   - Devon
   - Dorset
   - Durham
+  - East Sussex
   - Essex
+  - Farnborough
   - Gloucestershire
   - Greater London
   - Greater Manchester
@@ -9087,6 +9173,7 @@ GB:
   - Tyne and Wear
   - Warwickshire
   - West Midlands
+  - West Sussex
   - Westmorland
   - Wiltshire
   - Worcestershire
@@ -9169,9 +9256,57 @@ GB:
   - Worcs
   - Worsts
   - Yorks
+  # Towns and cities in England
+  - Bath
+  - Beckenham
+  - Birmingham, Uk
+  - Blackburn
+  - Bournemouth
+  - Brighton
+  - Bristol
+  - Bromley
+  - Camberley
+  - Coventry
+  - Dartford
+  - Daventry
+  - Earley
+  - Eccleshall
+  - Exeter
+  - Fareham
+  - Farnham
+  - Farnborough
+  - Great Shelford
+  - Halesowen
+  - Harpenden
+  - Harrow
+  - Horsham
+  - Iver
+  - Leicester
+  - Liverpool
+  - Loughborough
+  - Macclesfield
+  - Maidenhead
+  - Manchester
+  - Market Harborough
+  - Milton Keynes
+  - Newcastle Upon Tyne
+  - Newport Pagnell
+  - Northampton
+  - Nottingham
+  - Sheffield
+  - Slough
+  - Spilsby
+  - Tyne & Wear
+  - Wickford Essex
+  # UK Companies House
   - companies house uk
   - companies house wales
-  - Regatul Unit al Marii Britanii şi al Irlandei de Nord
+  - Companies House - Registrar Of Companies
+  - Uk Companies House
+  - Uk Companies Registry
+  - Uk Registered Company
+  - Uk Registrar Of Companies
+  
 GD:
   - Gelenadɛ
   - ഗ്രനേഡ
@@ -10831,6 +10966,7 @@ GW:
   - گینێ بیساو
   - Guiné  -Bissau
   - გვინეა-ბისაუ
+  - Citizen Of Guinea-Bissau
 GY:
   - ጉያና
   - An Ghuáin
@@ -11846,6 +11982,7 @@ IE:
   - Monaghan
   - Longford
   - Dublin
+  - Co Dublin
   - Carlow
   - Louth
 IL:
@@ -12718,6 +12855,7 @@ IT:
   - ಇಟಲಿ
   - இத்தாலி
   - Italy
+  - Italian Citizen
   - iṭalya
   - Emetab Italy
   - Italujo
@@ -12825,6 +12963,7 @@ JM:
   - Dschamäika
   - Jamaica
   - Jamaican
+  - Jamaica, West Indies
   - Samaik
   - דזשאַמייקע
   - Orílẹ́ède Jamaika
@@ -13729,6 +13868,10 @@ KN:
   - SAINT KITTS & NEVIS
   - SAINT-KITTS-ET-NEVIS
   - ST KITTS-NEVIS
+  - Nevis & St Kitts
+  - Nevis And St Kitts
+  - Nevis West Indies
+  - Nevis, West Indies
   - Sãu Kristovãu i Nevis
   - Saint Kitts dan Nevis
   - Սենթ Քիթս և Նեվիս
@@ -16271,6 +16414,7 @@ MK:
   - North Macedonia
   - The Former Yugoslav Republic of Macedonia
   - Macedonia, The Former Yugoslav Republic of
+  - Macedonia (Fyr)
   - North Macedonia, The Republic of
   - Socialist Republic of Macedonia
   - Republic of North Macedonia
@@ -19760,6 +19904,7 @@ PK:
   - Pakistán
   - Pakisitani
   - Pakistanis
+  - Citizen Of Pakistan
   - An Phacastáin
   - פקיסטן
   - Пәкістан
@@ -22607,6 +22752,7 @@ SM:
   - Usamarino
   - ସାନ୍ ମାରିନୋ
   - San Marino
+  - Sammarinese
   - SMR
   - 산마리노
   - សាន​ម៉ារីណូ
@@ -24820,6 +24966,7 @@ TT:
   - "Trinidad,"
   - Trinidadian
   - "Tobago"
+  - Tobagonian
   - Trinidad aamma Tobago
   - Тринидад жана Тобаго
   - ترینیداد و تۆباگو
@@ -25026,6 +25173,7 @@ TW:
   - Republic of China
   - Taiwan, China
   - Taiwan (Republic of China)
+  - Taiwan, Roc
   - Taipei,China
   - Тайван
   - Taayiwan
@@ -25187,6 +25335,7 @@ TZ:
   - Hutanzania
   - 탄자니아
   - ⵟⴰⵏⵥⴰⵏⵢⴰ
+  - Zanzibar
 UA:
   - Ʉkɨréeni
   - Украйн
@@ -25497,7 +25646,9 @@ US:
   - WDM
   - AMERICA
   - United States Citizen
+  - Us Citizen
   - American
+  - "U S A" # non-standard spacing
   - "Thirteen Colonies"
   - DELAWARE, U.S.A.
   - ARIZONA, U.S.A.
@@ -25586,6 +25737,8 @@ US:
   - COLORADO
   - IOWA
   - texas
+  - State Of Georgia
+  - State Of Georgia, Usa
   - Ameriketako Estatu Batuak
   - ສະຫະລັດ
   - Stadis Unids da l’America
@@ -26076,6 +26229,7 @@ VC:
   - ⵙⴰⵏⴼⴰⵏⵙⴰⵏ ⴷ ⴳⵔⵉⵏⴰⴷⵉⵏ
   - Saint Vincent și Grenadinele
   - ST. VINCENT & THE GRENADINES
+  - St Vincentian
   - Husantavisenti na Hugrenadini
   - sɛnvǝnsǝŋ ri grɛnadín
   - سینٹ ونسنٹ اور گرینیڈائنز
@@ -26809,6 +26963,7 @@ VU:
 WF:
   - Wallis and Futuna Islands
   - Wallis en Futuna
+  - Wallisian
   - جزر والس وفوتونا
   - वॉलेस एवं फ़्यूचूना
   - ವಾಲಿಸ್ ಮತ್ತು ಫುಟುನಾ
