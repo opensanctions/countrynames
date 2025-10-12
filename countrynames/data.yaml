@@ -36,7 +36,7 @@ FAIL:
   - Birmingham # city in the UK and in Alabama, USA.
   - Victoria # state in Australia but also a city in Canada
   - Worthing # town in England but also town in Texas USA etc
-  # data inputs where inputer has purposefully not entered a country/nationality
+  # data inputs where it appears inputer has purposefully not entered a country/nationality
   - N/A
   - "00"
   - UNKNOWN
@@ -52,8 +52,9 @@ FAIL:
   - Nomadic
   - deceased
   - Other
+  - "-"
+  - "." 
   # common data input issues
-   - "." # common data entry issue
    - "E" # common data entry issue, appears over 40 times in Companies House data on persons with significant control
    - United # common data entry issue
   # - na -> namibia
