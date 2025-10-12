@@ -8,8 +8,11 @@ FAIL:
   - british overseas territories
   - overseas territories
   - abroad
+  - overseas
   - channel islands
+  - Channels Islands
   - channel island
+  - Channel Island
   - Channel Isles
   - west indies
   - West Indian
@@ -29,9 +32,14 @@ FAIL:
   - "00"
   - UNKNOWN
   - "NULL"
+  - Not Applicable"
   - undefined
   - undetermined
+  - deceased
   - Other
+  # common data input issues
+   - "." # common data entry issue
+   -  - United # common data entry issue
   # - na -> namibia
   - n a
   - unknown
@@ -232,6 +240,7 @@ GB-SCT:
   - Scotsman
   - Scotswoman
   - Scots
+  - Scot
   - Brit Scot
   - Шотландія
   - Шотландія
@@ -9199,9 +9208,13 @@ GB:
   - Bath
   - Beckenham
   - Birmingham, Uk
+  - Blackburn
+  - Bournemouth
+  - Brighton
   - Bristol
   - Bromley
   - Camberley
+  - Coventry
   - Dartford
   - Daventry
   - Earley
@@ -10894,6 +10907,7 @@ GW:
   - گینێ بیساو
   - Guiné  -Bissau
   - გვინეა-ბისაუ
+  - Citizen Of Guinea-Bissau
 GY:
   - ጉያና
   - An Ghuáin
@@ -22670,6 +22684,7 @@ SM:
   - Usamarino
   - ସାନ୍ ମାରିନୋ
   - San Marino
+  - Sammarinese
   - SMR
   - 산마리노
   - សាន​ម៉ារីណូ
