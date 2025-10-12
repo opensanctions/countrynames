@@ -10,6 +10,7 @@ FAIL:
   - abroad
   - channel islands
   - channel island
+  - Channel Isles
   - west indies
   - West Indian
   - indies
@@ -22,11 +23,13 @@ FAIL:
   - Africa
   - African
   - central america
+  - East Africa
   - southern america
   - N/A
   - "00"
   - UNKNOWN
   - "NULL"
+  - undefined
   - undetermined
   - Other
   # - na -> namibia
@@ -8845,6 +8848,7 @@ GB:
   - Engalnd
   - eng
   - Engl
+  - Engla
   - emgland
   - en
   - England and Wales
@@ -8920,6 +8924,7 @@ GB:
   - Groussbritannien
   - kǝlɔŋ kǝ kǝtáatáaŋzǝn
   - GB
+  - G B
   - イギリス
   - Nlambɔ́ Ngɛlɛn
   - ⵜⴰⴳⵍⴷⵉⵜ ⵉⵎⵓⵏⵏ
@@ -9067,6 +9072,7 @@ GB:
   - Cheshire
   - Cleveland
   - Cornwall
+  - Crawley
   - Cumberland
   - Cumbria
   - Derbyshire
@@ -9075,6 +9081,7 @@ GB:
   - Durham
   - East Sussex
   - Essex
+  - Farnborough
   - Gloucestershire
   - Greater London
   - Greater Manchester
@@ -9214,6 +9221,7 @@ GB:
   - Manchester
   - Market Harborough
   - Milton Keynes
+  - Newcastle Upon Tyne
   - Newport Pagnell
   - Nottingham
   - Sheffield
