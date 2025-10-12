@@ -7,39 +7,48 @@ FAIL:
   - asia
   - british overseas territories
   - overseas territories
+  # terms meaning overseas/foreign
   - abroad
   - overseas
+  - Uk Offshore
+  # terms for regions containing multiple countries
   - channel islands
   - Channels Islands
   - channel island
   - Channel Island
   - Channel Isles
   - west indies
+  - West Indies
   - West Indian
   - indies
   - THE WEST INDIES
   - THE CHENNAL ISLES
   - CHANNEL ISLANDS
   - VIRGIN ISLANDS
-  - Other
-  - undetermined
   - Africa
   - African
   - central america
   - East Africa
   - southern america
+  - West Africa
+  # Ambiguous place names
+  - Birmingahm # city in the UK and in Alabama, USA.
+  - Victoria # state in Australia but also a city in Canada
+  # data inputs where inputer has purposefully not entered a country/nationality
   - N/A
   - "00"
   - UNKNOWN
   - "NULL"
-  - Not Applicable"
+  - Not Applicable
+  - N.A.
   - undefined
   - undetermined
   - deceased
   - Other
   # common data input issues
    - "." # common data entry issue
-   -  - United # common data entry issue
+   - "E" # common data entry issue, appears over 40 times in Companies House data on persons with significant control
+   - United # common data entry issue
   # - na -> namibia
   - n a
   - unknown
@@ -172,6 +181,7 @@ UA-CRI:
 GB-WLS:
   - Wales
   - Welsh
+  - Cymreig
   - GBWLS
   - Cymro
   - Cymru
@@ -290,9 +300,12 @@ GB-SCT:
   - Lothian
   - Linlithgowshire
   - Wigtownshire
+# Towns and cities in Scotland
   - Escocia
+  - Forfar
   - Fraserburgh
   - Lochgelly
+  - Inverness
   - Inverurie
   - Selkirk
   - Turriff
@@ -4276,6 +4289,7 @@ CA:
   - Ontario
   - Manitoba
   - Saskatchewan
+  - Banff
   - Edmonton, Alberta
   - Victoria, British Columbia
   - British Columbia
@@ -6592,6 +6606,7 @@ DE:
   - Gjermanie
   - i  -Germany
   - Berlin
+  - Aachen
   - Alemaina
   - Almagn
   - Nemačka
@@ -8853,6 +8868,7 @@ GB:
   - Britsh
   - Brittish
   - Btitish
+  - Prydeinig
   - Cornwall
   - Engalnd
   - eng
@@ -8870,6 +8886,7 @@ GB:
   - England
   - Ukengland
   - Uk Citizen
+  - Uk Resident
   - U.K. Citizen
   - Uk Non-Resident
   - United Kindgom
@@ -9072,6 +9089,8 @@ GB:
   - ꑱꇩ
   - tagldit imunn
   - פֿאַראייניגטע קעניגרייך
+  - Regatul Unit al Marii Britanii şi al Irlandei de Nord
+  # Counties in England
   - Avon
   - Bedfordshire
   - Berkshire
@@ -9205,6 +9224,7 @@ GB:
   - Worcs
   - Worsts
   - Yorks
+  # Towns and cities in England
   - Bath
   - Beckenham
   - Birmingham, Uk
@@ -9222,11 +9242,13 @@ GB:
   - Exeter
   - Fareham
   - Farnborough
+  - Great Shelford
   - Halesowen
   - Harpenden
   - Harrow
   - Horsham
   - Iver
+  - Leicester
   - Liverpool
   - Loughborough
   - Macclesfield
@@ -9236,18 +9258,22 @@ GB:
   - Milton Keynes
   - Newcastle Upon Tyne
   - Newport Pagnell
+  - Northampton
   - Nottingham
   - Sheffield
   - Slough
   - Spilsby
   - Tyne & Wear
   - Wickford Essex
+  # UK Companies House
   - companies house uk
   - companies house wales
+  - Companies House - Registrar Of Companies
+  - Uk Companies House
   - Uk Companies Registry
   - Uk Registered Company
   - Uk Registrar Of Companies
-  - Regatul Unit al Marii Britanii şi al Irlandei de Nord
+  
 GD:
   - Gelenadɛ
   - ഗ്രനേഡ
@@ -25265,6 +25291,7 @@ TZ:
   - Hutanzania
   - 탄자니아
   - ⵟⴰⵏⵥⴰⵏⵢⴰ
+  - Zanzibar
 UA:
   - Ʉkɨréeni
   - Украйн
@@ -25575,6 +25602,7 @@ US:
   - WDM
   - AMERICA
   - United States Citizen
+  - Us Citizen
   - American
   - "Thirteen Colonies"
   - DELAWARE, U.S.A.
@@ -26887,6 +26915,7 @@ VU:
 WF:
   - Wallis and Futuna Islands
   - Wallis en Futuna
+  - Wallisian
   - جزر والس وفوتونا
   - वॉलेस एवं फ़्यूचूना
   - ವಾಲಿಸ್ ಮತ್ತು ಫುಟುನಾ
