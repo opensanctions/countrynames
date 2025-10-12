@@ -12,7 +12,7 @@ FAIL:
   - Non-Dom
   - overseas
   - Uk Offshore
-  # terms for regions etc referring to multiple countries/peoples
+  # terms for regions etc referring to multiple countries/peoples etc
   - Afrikaans
   - arabic
   - channel islands
@@ -35,6 +35,7 @@ FAIL:
   - East Africa
   - southern america
   - West Africa
+  - Mixed Race
   # Ambiguous place names
   - Birmingham # city in the UK and in Alabama, USA.
   - Victoria # state in Australia but also a city in Canada
@@ -52,6 +53,7 @@ FAIL:
   - undetermined
   - Tbd
   - "<Country></Country>"
+  - Citizen Of The World
   - Nomadic
   - deceased
   - Other
@@ -26212,6 +26214,7 @@ VC:
   - ⵙⴰⵏⴼⴰⵏⵙⴰⵏ ⴷ ⴳⵔⵉⵏⴰⴷⵉⵏ
   - Saint Vincent și Grenadinele
   - ST. VINCENT & THE GRENADINES
+  - St Vincentian
   - Husantavisenti na Hugrenadini
   - sɛnvǝnsǝŋ ri grɛnadín
   - سینٹ ونسنٹ اور گرینیڈائنز
