@@ -9,6 +9,7 @@ FAIL:
   - overseas territories
   # terms meaning overseas/foreign
   - abroad
+  - Non-Dom
   - overseas
   - Uk Offshore
   # terms for regions containing multiple countries
@@ -32,17 +33,22 @@ FAIL:
   - southern america
   - West Africa
   # Ambiguous place names
-  - Birmingahm # city in the UK and in Alabama, USA.
+  - Birmingham # city in the UK and in Alabama, USA.
   - Victoria # state in Australia but also a city in Canada
+  - Worthing # town in England but also town in Texas USA etc
   # data inputs where inputer has purposefully not entered a country/nationality
   - N/A
   - "00"
   - UNKNOWN
+  - "Null"
   - "NULL"
   - Not Applicable
   - N.A.
+  - No Residence
   - undefined
   - undetermined
+  - Tbd
+  - Nomadic
   - deceased
   - Other
   # common data input issues
@@ -8878,10 +8884,7 @@ GB:
   - Engla
   - emgland
   - en
-  - England and Wales
-  - England & Wales
   - England/United Kingdom
-  - United Kingdom (England And Wales)
   - British English
   - Englishman
   - Englishwoman
@@ -8913,7 +8916,6 @@ GB:
   - British subject
   - Uk Subject
   - Other Uk
-  - English And Welsh Law
   - Inglaterra
   - Regno Unito
   - დიდი ბრიტანეთი
@@ -9093,6 +9095,15 @@ GB:
   - tagldit imunn
   - פֿאַראייניגטע קעניגרייך
   - Regatul Unit al Marii Britanii şi al Irlandei de Nord
+   # England and Wales (these two countries within the UK form one jurisdiction)
+  - England and Wales
+  - English And Welsh Law
+  - England & Wales
+  - Ew
+  - "E & W"
+  - "E/W"
+  - "Gb-Eaw"
+  - United Kingdom (England And Wales)
   # Counties in England
   - Avon
   - Bedfordshire
@@ -24928,6 +24939,7 @@ TT:
   - "Trinidad,"
   - Trinidadian
   - "Tobago"
+  - Tobagonian
   - Trinidad aamma Tobago
   - Тринидад жана Тобаго
   - ترینیداد و تۆباگو
