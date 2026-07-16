@@ -80,8 +80,8 @@ FAIL:
   - Other
   - "<Country></Country>"
   # common data input issues
-   - "E" # common data entry issue, appears over 40 times in Companies House data on persons with significant control
-   - United # common data entry issue
+  - "E" # common data entry issue, appears over 40 times in Companies House data on persons with significant control
+  - United # common data entry issue
 ZZ:
   - Global
   - Worldwide
